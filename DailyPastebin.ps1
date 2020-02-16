@@ -106,7 +106,7 @@ Write-Output ""
 # ---- Find something Juicy -------------
 
 
-if ($contenturl -like "*admin*" -or $contenturl -like "*credentials*" -or $contenturl -like "*password*" -or $contenturl -like "*rdp*" -or $contenturl -like "*login" -or $contenturl -like "*username*" -or $contenturl -like "*API*"-or $contenturl -like "*hash*" -or $contenturl -like "*database=*" ){
+if ($contenturl -like "*admin*" -or $contenturl -like "*credentials*" -or $contenturl -like "*password*" -or $contenturl -like "*rdp*" -or $contenturl -like "*login" -or $contenturl -like "*username*" -or $contenturl -like "*API*"-or $contenturl -like "*hash*" -or $contenturl -like "*database=*" -or $contenturl -like "*ssh*" -or $contenturl -like "*wallet*"){
 
 $storejuice = @()
 $juicylink = @()
