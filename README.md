@@ -4,7 +4,7 @@
 Pastebin is used by multiple people, including malicious parties. 
 Dailypastebin.ps1 can help pull recent public pastes, display and extract anything of value in them. 
 
-If you wanted to add your own keywords, simply expand on line 103 "-or $contenturl -like '*your keyword*'
+If you wanted to add your own keywords, simply expand on line 103 "-or $contenturl -like "*your keyword*"
 
 <b> To Run </b>
 
